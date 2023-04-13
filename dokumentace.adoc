@@ -1,0 +1,30 @@
+:imagesdir: doc_images
+:couchbase_version: current
+:toc:  
+:project_id: gs-intro-to-js
+:icons: font
+:source-highlighter: prettify
+:tags: javascript,ecmasscript,js
+
+== Introduction
+
+My semestral work is a videomapping of Mandelbrot fractals projected onto a model human head. Projector used is *Acer XD1280D DLP*, head used comes from a mannequin and is sprayed with a base white spray. Entire project was done in *Blender*. 
+
+== Workflow
+=== Model
+A model 3D face was made using the blender addon
+KeenTools FaceBuilder, which allowed me to shape a human face based on photos taken of the model head. After more adjustments were made in edit and sculpt mode of blender.
+
+=== Animations
+
+Starting animations are done using moving lights with the face model material set to glass. The following effect is done by making a metallic wireframe copy of the model face and moving lights around it.
+
+=== Fractals
+
+A fractal generator was done in shader editor using nodes. More copies were made to allow me to easily switch between color or black and white effects. Animation on these generated fractals was done by keyframing certain vector values or colors onto the timeline
+
+
+=== Takeaways
+
+The total time spent on creating this projection was roughly 40 hours. Biggest hurdles were setting up the old projector used and creating the model face itself. I'm personally quite pleased with the result although the main effect is only possible due to render engine being Eevee and Viewport Denoising being used. Which does not work in render sadly.
+
